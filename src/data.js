@@ -1,28 +1,35 @@
 let stays = [
   {
-    id: "theritz",
-    name: "The Ritz",
-    img: "https://media.cntraveler.com/photos/5f6198aa987090832029b181/16:9/w_2560%2Cc_limit/ritz-london-exterior.jpg",
+    id: "villacora",
+    name: "Villa Cora",
+    img:
+      "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/italy/tuscany/villa-cora-hotel-florence-product.jpg?imwidth=480",
     description:
-      "We are London’s most iconic hotel. A five star haven on Piccadilly that is famous the world over for its historic elegance, impeccable service, impressive suites, and legendary Afternoon Tea.",
-    nearby: ["London eye", "Buckingham Palace", "Tower Bridge"],
+      "Villa Cora is an outstanding hotel offering impeccable service, superb facilities including a lovely garden and pool are a calm, cool refuge after a hot, sticky day in central Florence.",
+    nearby: [
+      "Cathedral of Santa Maria del Fiore",
+      "Ponte Vecchio",
+      "Tower Galleria degli Uffizi"
+    ]
   },
   {
-    id: "theritz",
-    name: "The Ritz",
-    img: "https://media.cntraveler.com/photos/5f6198aa987090832029b181/16:9/w_2560%2Cc_limit/ritz-london-exterior.jpg",
+    id: "thebrunelleschihotel",
+    name: "The Brunelleschi Hotel",
+    img:
+      "https://www.brunelleschihotelflorence.com/wp-content/uploads/2020/05/colazione-camera-hotel-firenze.jpg",
     description:
-      "We are London’s most iconic hotel. A five star haven on Piccadilly that is famous the world over for its historic elegance, impeccable service, impressive suites, and legendary Afternoon Tea.",
-    nearby: ["London eye", "Buckingham Palace", "Tower Bridge"],
+      "Set in a converted church and Byzantine tower dating from the 6th century, this luxe hotel on a square is a 3-minute walk from Florence Cathedral and a 6-minute walk from the Uffizi Gallery.",
+    nearby: ["Florence Cathedral", "Tower Galleria degli Uffizi"]
   },
   {
-    id: "theritz",
-    name: "The Ritz",
-    img: "https://media.cntraveler.com/photos/5f6198aa987090832029b181/16:9/w_2560%2Cc_limit/ritz-london-exterior.jpg",
+    id: "stregis",
+    name: "The St. Regis Florence",
+    img:
+      "https://www.kayak.com/rimg/himg/cb/12/c5/leonardo-175965070-flrxr-suite-8636-hor-clsc_O-214035.jpg",
     description:
-      "We are London’s most iconic hotel. A five star haven on Piccadilly that is famous the world over for its historic elegance, impeccable service, impressive suites, and legendary Afternoon Tea.",
-    nearby: ["London eye", "Buckingham Palace", "Tower Bridge"],
-  },
+      "The St Regis Florence delivers old world grandeur, five-star service, and an exceptional location that’s literally a stone’s throw from the Arno River.",
+    nearby: ["Santa Maria Novella train station", "Florence Cathedral"]
+  }
 ];
 
 export function getStays() {

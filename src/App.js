@@ -8,9 +8,22 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Dream Stays</h1>
+        <h1>Dream Stays: Florence</h1>
       </header>
-      <h2>London</h2>
+      <p className="location-slogan">Flourish in Florence</p>
+      <hr />
+      <h2>Local Activites</h2>
+      <ul>
+        <li>Visit Uffizi Gallery</li>
+      </ul>
+      <ul>
+        <li>Visit the Florence Cathedral</li>
+      </ul>
+      <ul>
+        <li>Wine Tasting</li>
+      </ul>
+      <hr />
+      <h3>Stays</h3>
       <div className="container">
         {stays.map((stay) => {
           return (

@@ -13,7 +13,7 @@
   text-align: center;
   float: right;
   @media (width: 768px) {
-    background-color: #f00000;
+    background-color: #c8a2c8;
     margin: 10px 20px;
     width: calc(100% - 40px);
     &:first-child {
@@ -23,7 +23,8 @@
 }
 
 .card-header {
-  font-size: 15px;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .card-header-img {
@@ -34,17 +35,20 @@
 
 .card-body {
   padding: 0;
-  margin: 20px 0 50px 0;
+  margin: 0px 0 20px 0;
+  font-size: 15px;
+  background-color: #4b9cd3;
+  color: #ffffff;
 }
 
 .card-button {
-  color: white;
+  color: #b3cee5;
   font-size: 20px;
   padding: 10px 60px;
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
-  background-color: #3662d8;
+  background-color: #73c2fb;
   color: #ffffff;
   border-radius: 0.5rem;
 }
