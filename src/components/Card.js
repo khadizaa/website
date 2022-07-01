@@ -4,7 +4,7 @@ import { getHotelPrice } from "../pricing-server";
 import { useEffect, useState } from "react";
 
 function Card(cardData) {
-  const [hotelPrice, setHotelPrice] = useState(0);
+  const [hotelPrice, setHotelPrice] = useState(800);
 
   // I am called when Chrome is displaying the hotel
   useEffect(() => {

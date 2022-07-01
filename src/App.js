@@ -28,6 +28,7 @@ export default function App() {
         {stays.map((stay) => {
           return (
             <Card
+              price={stay.price}
               key={stay.id}
               id={stay.id}
               name={stay.name}

@@ -4,6 +4,7 @@ let stays = [
     name: "Villa Cora",
     img:
       "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/italy/tuscany/villa-cora-hotel-florence-product.jpg?imwidth=480",
+    price: "£999",
     description:
       "Villa Cora is an outstanding hotel offering impeccable service, superb facilities including a lovely garden and pool are a calm, cool refuge after a hot, sticky day in central Florence.",
     nearby: [

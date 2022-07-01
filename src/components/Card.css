@@ -28,9 +28,9 @@
 }
 
 .card-header-img {
-  max-width: 100%;
+  max-width: 50%;
   text-align: center;
-  height: 200px;
+  height: 100px;
 }
 
 .card-body {
